@@ -27,6 +27,12 @@ On a new terminal
 ./stop-game.sh
 ```
 
+## Dashboard
+
+```bash
+cd ~/balloon-popper-demo 
+```
+
 ### Access Dashboard
 
 ```bash
