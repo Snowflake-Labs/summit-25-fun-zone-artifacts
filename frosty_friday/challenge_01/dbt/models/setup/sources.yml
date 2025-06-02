@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: challenge_001_setup
+    database: mikedroog
+    schema: challenge_001_setup
+    tables:
+      - name: invoice_line_items
+        description: "Raw invoice line items with free-text service descriptions"
+        columns:
+          - name: line_item_id
+            description: "Primary key for the line item"
+          - name: invoice_id
+            description: "Associated invoice ID"
+          - name: service_description
+            description: "Unstructured text describing the service provided"
+
+      - name: service_categories
+        description: "Standardized service categories for cost mapping or classification"
+        columns:
+          - name: category_id
+            description: "Primary key for the service category"
+          - name: category_name
+            description: "Name of the standardized service category"
