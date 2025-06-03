@@ -3,12 +3,19 @@ import time
 import snowflake.connector
 from snowflake.snowpark.context import get_active_session
 
+session = get_active_session()
+
+logo = session.file.get_stream(
+        "@CHALLENGE_001_DB.CHALLENGE_001_SETUP.ASSETS/cropped-Screenshot-2024-05-31-at-09.08.06.png", 
+        decompress=False
+    ).read()
+
+qr_code = session.file.get_stream(
+        "@CHALLENGE_001_DB.CHALLENGE_001_SETUP.ASSETS/frostyfriday_qr_no_logo.png",
+        decompress=False
+    ).read()
 
 md_text = """
-# ❄️ FROSTY_FRIDAY() Challenge 1: 
-## AI-Powered Text Classification with Cortex
-
-
 ### 🏁 Challenge Goal
 
 You work with raw invoice descriptions like:
@@ -61,7 +68,7 @@ def get_snowflake_connection():
 # --- Ensure leaderboard table exists ---
 def ensure_leaderboard_table_exists(cursor):
     create_table_query = """
-    CREATE TABLE IF NOT EXISTS leaderboard_table (
+    CREATE TABLE IF NOT EXISTS public.leaderboard_table (
         user_name STRING,
         correct INTEGER,
         duration STRING
@@ -74,7 +81,9 @@ conn = get_snowflake_connection()
 cursor = conn.cursor()
 ensure_leaderboard_table_exists(cursor)
 
-st.title("🥶 FROSTY_FRIDAY() Timer")
+st.image(logo)
+st.title("🥶 Challenge 1")
+st.subheader("AI-Powered Text Classification with Cortex")
 st.markdown("Start the timer and stop it as quickly as you can!")
 
 # --- Start Screen: Enter Name and Start ---
@@ -101,6 +110,9 @@ if "timer_started" in st.session_state and "end_time" not in st.session_state:
         st.session_state["end_time"] = time.time()
         st.rerun()
     time.sleep(1)
+    st.markdown(md_text)
+    st.markdown("---")
+    st.caption("Made with ❤️ for Frosty Fridays ❄️ Powered by Snowflake 🔷")
     st.rerun()
 
 # --- Timer Stopped ---
@@ -112,7 +124,7 @@ if "end_time" in st.session_state:
     if "time_submitted" not in st.session_state:
         safe_name = st.session_state["user_name"].replace("'", "''")
         insert_query = f"""
-            INSERT INTO leaderboard_table (user_name, correct, duration)
+            INSERT INTO public.leaderboard_table (user_name, correct, duration)
             VALUES ('{safe_name}', NULL, '{duration_str}')
         """
         cursor.execute(insert_query)
@@ -123,8 +135,16 @@ if "end_time" in st.session_state:
             st.session_state.pop(key, None)
         st.rerun()
 
+    st.markdown(md_text)
+    st.markdown("---")
+    st.caption("Made with ❤️ for Frosty Fridays ❄️ Powered by Snowflake 🔷")
+
 # --- Leaderboard ---
 with st.sidebar:
+    st.markdown("## 👨‍💻 Join the Community!")
+    st.markdown("[https://frostyfriday.org](https://frostyfriday.org)")
+    st.image(qr_code)
+    st.divider()
     st.markdown("## 🏆 Leaderboard")
     try:
         select_query = """
