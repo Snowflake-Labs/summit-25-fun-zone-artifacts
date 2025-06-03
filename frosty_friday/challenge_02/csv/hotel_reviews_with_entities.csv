@@ -1,0 +1,101 @@
+review_id,hotel_id,review_text,target_entity
+1,2004,Customer support was amazing. The Free WiFi was a big part of our experience.,Free WiFi
+2,2002,Great value for the price. The Free WiFi was a big part of our experience.,Free WiFi
+3,2002,"Functional, but unexciting. The Location was a big part of our experience.",Location
+4,2002,"It's okay, nothing special. The Facilities was a big part of our experience.",Facilities
+5,2004,Highly recommend to everyone. The Comfort was a big part of our experience.,Comfort
+6,2005,I would definitely buy again. The Free WiFi was a big part of our experience.,Free WiFi
+7,2004,I would definitely buy again. The Cleanliness was a big part of our experience.,Cleanliness
+8,2002,Best purchase I've made this year. The Free WiFi was a big part of our experience.,Free WiFi
+9,2003,"Five stars, no complaints. The Staff was a big part of our experience.",Staff
+10,2003,"Functional, but unexciting. The Location was a big part of our experience.",Location
+11,2005,Poor quality and bad support. The Comfort was a big part of our experience.,Comfort
+12,2002,Best purchase I've made this year. The Location was a big part of our experience.,Location
+13,2001,Wouldn’t buy this again. The Staff was a big part of our experience.,Staff
+14,2001,No major complaints or praise. The Cleanliness was a big part of our experience.,Cleanliness
+15,2002,No major complaints or praise. The Free WiFi was a big part of our experience.,Free WiFi
+16,2001,I would definitely buy again. The Facilities was a big part of our experience.,Facilities
+17,2005,Poor quality and bad support. The Free WiFi was a big part of our experience.,Free WiFi
+18,2005,Fantastic service and quality. The Comfort was a big part of our experience.,Comfort
+19,2003,Average experience. The Comfort was a big part of our experience.,Comfort
+20,2005,Service was neither good nor bad. The Cleanliness was a big part of our experience.,Cleanliness
+21,2004,Not worth the money. The Staff was a big part of our experience.,Staff
+22,2002,Fantastic service and quality. The Facilities was a big part of our experience.,Facilities
+23,2001,"It's okay, nothing special. The Staff was a big part of our experience.",Staff
+24,2004,Poor quality and bad support. The Comfort was a big part of our experience.,Comfort
+25,2002,Decent but not remarkable. The Location was a big part of our experience.,Location
+26,2001,Average experience. The Staff was a big part of our experience.,Staff
+27,2005,Meets the basic requirements. The Staff was a big part of our experience.,Staff
+28,2004,Average experience. The Value for money was a big part of our experience.,Value for money
+29,2003,Meets the basic requirements. The Staff was a big part of our experience.,Staff
+30,2003,Average experience. The Facilities was a big part of our experience.,Facilities
+31,2005,Brilliant design and easy to use. The Comfort was a big part of our experience.,Comfort
+32,2002,Worst product I’ve purchased. The Comfort was a big part of our experience.,Comfort
+33,2003,Service was neither good nor bad. The Location was a big part of our experience.,Location
+34,2001,Didn't meet expectations at all. The Value for money was a big part of our experience.,Value for money
+35,2003,I would definitely buy again. The Location was a big part of our experience.,Location
+36,2001,I regret buying this. The Facilities was a big part of our experience.,Facilities
+37,2001,Decent but not remarkable. The Staff was a big part of our experience.,Staff
+38,2001,Highly recommend to everyone. The Cleanliness was a big part of our experience.,Cleanliness
+39,2005,Great value for the price. The Value for money was a big part of our experience.,Value for money
+40,2001,"Five stars, no complaints. The Comfort was a big part of our experience.",Comfort
+41,2002,Meets the basic requirements. The Staff was a big part of our experience.,Staff
+42,2002,Highly recommend to everyone. The Cleanliness was a big part of our experience.,Cleanliness
+43,2005,Customer support was amazing. The Location was a big part of our experience.,Location
+44,2003,"It's okay, nothing special. The Location was a big part of our experience.",Location
+45,2001,Exceeded my expectations. The Value for money was a big part of our experience.,Value for money
+46,2002,Absolutely love this product! The Comfort was a big part of our experience.,Comfort
+47,2001,"It's okay, nothing special. The Free WiFi was a big part of our experience.",Free WiFi
+48,2003,I would definitely buy again. The Facilities was a big part of our experience.,Facilities
+49,2005,It works as expected. The Comfort was a big part of our experience.,Comfort
+50,2003,Very disappointed. Would not recommend. The Cleanliness was a big part of our experience.,Cleanliness
+51,2002,Very disappointed. Would not recommend. The Value for money was a big part of our experience.,Value for money
+52,2003,Exceeded my expectations. The Staff was a big part of our experience.,Staff
+53,2002,Decent but not remarkable. The Facilities was a big part of our experience.,Facilities
+54,2002,"Five stars, no complaints. The Location was a big part of our experience.",Location
+55,2005,Not worth the money. The Free WiFi was a big part of our experience.,Free WiFi
+56,2004,Terrible customer service. The Facilities was a big part of our experience.,Facilities
+57,2005,Service was neither good nor bad. The Value for money was a big part of our experience.,Value for money
+58,2002,"It's okay, nothing special. The Comfort was a big part of our experience.",Comfort
+59,2005,I would definitely buy again. The Facilities was a big part of our experience.,Facilities
+60,2003,Customer support was amazing. The Location was a big part of our experience.,Location
+61,2005,I would definitely buy again. The Staff was a big part of our experience.,Staff
+62,2002,Exceeded my expectations. The Free WiFi was a big part of our experience.,Free WiFi
+63,2002,Decent but not remarkable. The Cleanliness was a big part of our experience.,Cleanliness
+64,2005,I would definitely buy again. The Free WiFi was a big part of our experience.,Free WiFi
+65,2003,Great value for the price. The Comfort was a big part of our experience.,Comfort
+66,2002,Customer support was amazing. The Staff was a big part of our experience.,Staff
+67,2005,Customer support was amazing. The Value for money was a big part of our experience.,Value for money
+68,2001,Best purchase I've made this year. The Facilities was a big part of our experience.,Facilities
+69,2005,Didn't meet expectations at all. The Free WiFi was a big part of our experience.,Free WiFi
+70,2001,Fantastic service and quality. The Location was a big part of our experience.,Location
+71,2002,Exceeded my expectations. The Cleanliness was a big part of our experience.,Cleanliness
+72,2002,Product broke after one use. The Location was a big part of our experience.,Location
+73,2002,Best purchase I've made this year. The Facilities was a big part of our experience.,Facilities
+74,2003,Great value for the price. The Facilities was a big part of our experience.,Facilities
+75,2003,Not worth the money. The Free WiFi was a big part of our experience.,Free WiFi
+76,2002,I would definitely buy again. The Facilities was a big part of our experience.,Facilities
+77,2003,Best purchase I've made this year. The Staff was a big part of our experience.,Staff
+78,2001,Average experience. The Cleanliness was a big part of our experience.,Cleanliness
+79,2005,No major complaints or praise. The Facilities was a big part of our experience.,Facilities
+80,2002,"Five stars, no complaints. The Value for money was a big part of our experience.",Value for money
+81,2005,"Five stars, no complaints. The Cleanliness was a big part of our experience.",Cleanliness
+82,2003,Completely dissatisfied. The Free WiFi was a big part of our experience.,Free WiFi
+83,2005,I regret buying this. The Location was a big part of our experience.,Location
+84,2004,Worst product I’ve purchased. The Facilities was a big part of our experience.,Facilities
+85,2002,I would definitely buy again. The Location was a big part of our experience.,Location
+86,2004,Terrible customer service. The Free WiFi was a big part of our experience.,Free WiFi
+87,2004,It works as expected. The Free WiFi was a big part of our experience.,Free WiFi
+88,2003,Brilliant design and easy to use. The Staff was a big part of our experience.,Staff
+89,2002,Great value for the price. The Facilities was a big part of our experience.,Facilities
+90,2004,Great value for the price. The Facilities was a big part of our experience.,Facilities
+91,2005,No major complaints or praise. The Staff was a big part of our experience.,Staff
+92,2003,"Product is fine, does the job. The Facilities was a big part of our experience.",Facilities
+93,2001,Wouldn’t buy this again. The Location was a big part of our experience.,Location
+94,2002,Service was neither good nor bad. The Location was a big part of our experience.,Location
+95,2003,Fantastic service and quality. The Cleanliness was a big part of our experience.,Cleanliness
+96,2002,Brilliant design and easy to use. The Free WiFi was a big part of our experience.,Free WiFi
+97,2002,Average experience. The Staff was a big part of our experience.,Staff
+98,2002,Decent but not remarkable. The Facilities was a big part of our experience.,Facilities
+99,2005,Didn't meet expectations at all. The Free WiFi was a big part of our experience.,Free WiFi
+100,2005,Meets the basic requirements. The Free WiFi was a big part of our experience.,Free WiFi

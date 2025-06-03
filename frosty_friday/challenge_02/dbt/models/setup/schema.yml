@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: challenge_002_setup
+    database: mikedroog
+    schema: challenge_002_setup
+    tables:
+      - name: hotel_reviews_with_entities
+        description: "Hotel reviews with embedded target entities for entity-level sentiment analysis"
+        columns:
+          - name: review_id
+            description: "Unique identifier for the review"
+          - name: hotel_id
+            description: "Hotel associated with the review"
+          - name: review_text
+            description: "Full review text including reference to the entity"
+          - name: target_entity
+            description: "Entity mentioned in the review for sentiment extraction (e.g., Staff, Location)"
+
+      - name: hotel_review_categories
+        description: "Static list of hotel review categories used for classification"
+        columns:
+          - name: category_id
+            description: "Unique identifier for the category"
+          - name: category_name
+            description: "Name of the hotel review category (e.g., Cleanliness, Location)"
+          - name: review_id
+            description: "Unique identifier for the review"
+          - name: product_id
+            description: "Product associated with the review"
+          - name: review_text
+            description: "Customer’s free-form feedback"
